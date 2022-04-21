@@ -1,0 +1,35 @@
+{
+  "name": "big-p-beta-version",
+  "version": "1.0.0",
+  "description": "upgraded version for big-p-api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "fcm-node": "^1.6.1",
+    "forever": "^4.0.1",
+    "i18next": "^21.6.3",
+    "i18next-fs-backend": "^1.1.4",
+    "i18next-http-middleware": "^3.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.7.0"
+  }
+}
